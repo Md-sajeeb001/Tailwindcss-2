@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
     <h1 class="text-5xl bg-slate-700">hello</h1>
@@ -94,7 +93,32 @@
 </section>
 
 
+<section class="w-4/5 m-auto py-5">
+    <h1 class="text-center py-10 text-2xl font-bold ">Grid use case</h1>
+    <div class="grid md:grid-cols-3 lg:grid-cols-4 gap-5">
 
+        <div class="md:col-span-3 md:row-span-4  lg:col-span-5 lg:row-span-4 bg-gray-400 text-xl font-bold">product 1</div>
+ 
+        <div class="lg:row-span-12 md:row-span-12 bg-gray-400 text-xl font-bold">product 2</div>
+ 
+        <div class="
+        lg:col-span-3
+         lg:row-span-5
+          md:col-span-2
+           md:row-span-12
+            bg-gray-400
+             text-xl
+              font-bold
+        ">product 3</div>
+ 
+        <div class=" lg:row-span-12 md:row-span-12 bg-gray-400 text-xl font-bold">product 4</div>
+
+        <div class="lg:row-span-7 lg:col-span-4 md:col-span-2 md:row-span-12 bg-gray-400 text-xl font-bold">product 5</div>
+
+        <div class="lg:col-span-5 lg:row-span-4 md:col-span-3 md:row-span-4 bg-gray-400 text-xl font-bold">product 6</div>
+        
+    </div>
+</section>
 
 
 </body>
